@@ -36,7 +36,7 @@ To design an automatic light-sensing circuit that switches an LED on in darkness
 
 The prototype was assembled on a solderless breadboard powered by a 9 V battery, as shown in Figure 3.1. The hardware used a ready-made LDR sensor module for the light-sensing stage, while the design and simulation use a discrete LDR, R1 and transistor. The photograph shows the battery, the blue sensor module, a yellow LED and the jumper wiring, with the LED lit.
 
-![][image1]  
+   ![circuit](circuit.jpg)
 Figure 3.1: Breadboard prototype with LDR sensor module, LED and 9 V battery
 
                
@@ -60,17 +60,17 @@ Table 3.2: Circuit connections
 7\. SIMULATION  
 The circuit was simulated in Tinkercad Circuits to verify the switching action, as shown in Figure 3.2. The light-level slider sets the illumination on the LDR.  
 Figure 3.2: Circuit simulation  
-![][image2]  
+   ![working](workingbnotblow.jpg) 
                                                             (a) high light level, LED off
 
-![][image3]
+   ![working](workingblow.jpg)
 
                                                            (b) low light level, LED on
 
  8\. CIRCUIT SCHEMATIC  
 Figure 3.3 shows the schematic. R1 and the LDR form a voltage divider that biases the base of T1, and T1 switches the LED branch (R2 and D1).
 
-![][image4]  
+   ![result](resultoff.jpg) 
                              
                            Figure 3.3: Circuit schematic of the LDR-controlled LED switch
 
@@ -135,7 +135,7 @@ Table 3.3: Simulation vs. hardware results
 
         
 
-              ![][image5]  
+   ![result](resulton.jpg) 
    
 Figure 3.4: Interior of the model showing the breadboard, wiring, battery and illuminated LED
 
