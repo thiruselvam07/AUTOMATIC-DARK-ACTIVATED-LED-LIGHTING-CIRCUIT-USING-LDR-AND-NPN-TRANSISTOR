@@ -60,7 +60,7 @@ Table 3.2: Circuit connections
 7\. SIMULATION  
 The circuit was simulated in Tinkercad Circuits to verify the switching action, as shown in Figure 3.2. The light-level slider sets the illumination on the LDR.  
 Figure 3.2: Circuit simulation  
-   ![working](workingbnotblow.jpg) 
+   ![working](workingnotblow.jpg) 
                                                             (a) high light level, LED off
 
    ![working](workingblow.jpg)
